@@ -1,0 +1,88 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        position: absolute;
+        top: 140px;
+        left: 250px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+          p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: powderblue" class="food_image">
+          <img
+            id="titleImage"
+            src="https://ci6.googleusercontent.com/proxy/pGsA7Sdy1RJLOUgntHwttIuVwUMPpLYIzDmqyYQjAaQVANT9qyvrz4oVt_DZXrMfpHez6dQ5CGTiUqjcAe7mhQhbid6nwxPbMea1FHEQRuAl012dKhAEmytFJHOpCVKsAUgT7eyngsSq5ENiR_EqVGs9xLcigpjWxKo=s0-d-e1-ft#https://finediningindian.com/wp-content/uploads/2018/02/A-Piece-of-Food-in-Traditional-Indian-Style.jpg "
+            alt="pic3"
+          />
+          <h1 id="titleName">MY FAV FOOD </h1>
+        </div>
+        <div style="background-color: yellow" class="food_image">
+          <h3 id="favFood1">Naan panner butter masala</h3>
+          <p id="foodDescription1">NOTHING CAN REPLACE IT </p>
+          <img id="favFoodImage1"
+            src= " https://ci6.googleusercontent.com/proxy/95cnpKU8rl2n4hvH-8-gQPRK-_DdngKRPwCcwurdmyBg39WhdJ8-Ut6IfVAkks22n_4X13updW__pB6ZdCfl9Oi3vNYGAeoaucIbZ1DufVUYDaVuRPQk_FiB=s0-d-e1-ft#https://www.mothersrecipe.com/wp-content/uploads/2020/03/oDbMG8chU6.jpg”
+            alt="pic2"
+          />
+        </div>
+        <div style="background-color: purple" class="food_image">
+          <h3 id="favFood2">biriyani</h3>
+          <p id="foodDescription2">BRIYANI TASTE,BETTER THAN THE REST</p>
+          <img id="favFoodImage2"
+            src="https://ci6.googleusercontent.com/proxy/95cnpKU8rl2n4hvH-8-gQPRK-_DdngKRPwCcwurdmyBg39WhdJ8-Ut6IfVAkks22n_4X13updW__pB6ZdCfl9Oi3vNYGAeoaucIbZ1DufVUYDaVuRPQk_FiB=s0-d-e1-ft#https://www.mothersrecipe.com/wp-content/uploads/2020/03/oDbMG8chU6.jpg "
+            alt="pic1"
+          />
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood3">noodles</h3>
+          <p id="foodDescription3">DELICIOUS </p>
+          <img id="favFoodImage3"
+            src="https://ci4.googleusercontent.com/proxy/qIRmwFmbolbcsf-KApTKUtPHbKm-WFdsiN_nRl0p0c-UArYkKuiQ7SqkHO7wwpztQ09Xo0UGM7hLNe7MJhtkA8bhw_rRlDaTGD3q7qYpNEKfRLZN1az-i3lDO34M1jCr52v2=s0-d-e1-ft#https://www.whiskaffair.com/wp-content/uploads/2020/10/Veg-Hakka-Noodles-2-1.jpg "
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
